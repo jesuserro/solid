@@ -1,6 +1,6 @@
 # Solid
 
-Bob's Uncle Solid Principles
+Bob's Uncle Solid Principles. Using Composer and Namespaces.
 
 ## Installing Composer
 
