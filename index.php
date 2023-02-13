@@ -1,13 +1,6 @@
 <?php
-Class Circle 
-{
-    public $radius;
 
-    public function __construct($radius) 
-    {
-        $this->radius = $radius;
-    }
-}
+use shapes\Circle;
 
 Class Square 
 {
