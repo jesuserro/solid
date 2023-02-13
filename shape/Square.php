@@ -1,5 +1,5 @@
 <?php
-namespace shapes; 
+namespace shape; 
 
 Class Square 
 {
