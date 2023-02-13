@@ -27,5 +27,8 @@ php -r "unlink('composer-setup.php');"
 ## Execute
 
 ``` shell
+# Edit php files and update autoload
+./composer dump-autoload
+
 php index.php
 ```

@@ -1,4 +1,6 @@
 <?php
+namespace Jesus\Solid; 
+
 /**
  * AreaCalculator
  * Ahora creamos la clase AreaCalculator, que recibe un array con los objetos de cada una de las figuras para ser sumadas

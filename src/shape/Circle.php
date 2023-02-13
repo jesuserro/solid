@@ -1,5 +1,5 @@
 <?php
-namespace shape; 
+namespace Jesus\Solid\shape; 
 
 Class Circle 
 {
@@ -8,5 +8,6 @@ Class Circle
     public function __construct($radius) 
     {
         $this->radius = $radius;
+        echo "Instantiating Circle\n";
     }
 }

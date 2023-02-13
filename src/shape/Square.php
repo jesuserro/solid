@@ -1,5 +1,5 @@
 <?php
-namespace shape; 
+namespace Jesus\Solid\shape; 
 
 Class Square 
 {
@@ -8,5 +8,6 @@ Class Square
     public function __construct($length) 
     {
         $this->length = $length;
+        echo "Instantiating Square\n";
     }
 }
