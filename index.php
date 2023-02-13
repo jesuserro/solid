@@ -1,16 +1,8 @@
 <?php
 
 use shapes\Circle;
+use shapes\Square;
 
-Class Square 
-{
-    public $length;
-
-    public function __construct($length) 
-    {
-        $this->length = $length;
-    }
-}
 // Primero creamos las clases de las figuras y dejamos que los constructores se encarguen de recibir las medidas necesarias.
 
 // Ahora creamos la clase AreaCalculator, que recibe un array con los objetos de cada una de las figuras para ser sumadas:
