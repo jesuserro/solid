@@ -1,4 +1,6 @@
 <?php
+$a=1;
+
 require_once __DIR__ . '/vendor/autoload.php';
 
 use Jesus\Solid\shape\{Circle, Square};
@@ -13,8 +15,3 @@ $shapes = array (
 $areas = new AreaCalculator($shapes);
 
 echo $areas->output();
-
-
-
-
-
